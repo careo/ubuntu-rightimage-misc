@@ -7,6 +7,7 @@ system "gem install rack --no-rdoc --no-ri"
 system "gem install rspec --no-rdoc --no-ri"
 system "gem install json --no-rdoc --no-ri"
 system "gem install uuid --no-rdoc --no-ri"
+system "gem install sinatra --no-rdoc --no-ri"
 
 
 Dir.chdir gitdir do
