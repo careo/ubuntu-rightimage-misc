@@ -5,6 +5,7 @@
 
 export PATH=$PATH:/bin:/sbin:/usr/bin:/usr/sbin   # standard system locations
 export PATH=$PATH:/usr/local/bin                  # misc other local stuff
+export PATH=/usr/local/mysql/bin:$PATH            # mysql
 export PATH=~/bin:$PATH                           # pull in my own bin before a lot of those others
 
 # Catch any desired overrides
